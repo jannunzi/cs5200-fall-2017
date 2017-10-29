@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+	 name="jdbc/lectures"
+	 type="javax.sql.DataSource"
+	 driverClassName="com.mysql.jdbc.Driver"
+	 url="jdbc:mysql://localhost/lectures"
+	 username="cs5200"
+	 password="cs5200"
+	 auth="Container"
+	 maxActive="50"
+	 maxIdle="30"
+	 maxWait="10000"/>
+</Context>
